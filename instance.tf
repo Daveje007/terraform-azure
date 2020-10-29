@@ -31,7 +31,7 @@ resource "azurerm_virtual_machine" "dj-instance" {
     disable_password_authentication = true
     ssh_keys {
       key_data = file("mykey.pub")
-      path     = "/home/dj/.ssh/authorized_keys"
+      path     = "/home/david/.ssh/authorized_keys"
     }
   }
 }
