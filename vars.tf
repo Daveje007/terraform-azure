@@ -1,6 +1,6 @@
 variable "location" {
   type    = string
-  default = "uksouth"
+  default = "westeurope"
 }
 variable "prefix" {
   type    = string
